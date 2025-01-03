@@ -1,0 +1,18 @@
+body {
+    font-family: Roboto;
+    display: block;
+
+}
+
+.nav-bar {
+    background-color: #1F2937;
+}
+
+.nav-bar a {
+    background-color: #1F2937;
+    text-decoration: none;
+    text-align: right;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
