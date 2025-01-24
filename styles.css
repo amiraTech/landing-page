@@ -90,8 +90,12 @@ body {
     color: #1F2937;
     font-weight: light italic;
     border: 3px solid #3882F6;
+    margin: auto;
 }
 
+.product img {
+    width: 300px;
+}
 
 
 
