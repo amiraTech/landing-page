@@ -155,6 +155,15 @@ body {
     font-size: 28px;
 }
 
+.CTA-section {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.CTA-box {
+    border: 3px solid #3882F6;
+}
+
 
 
 .footer-section {
