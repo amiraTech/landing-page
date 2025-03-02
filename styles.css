@@ -112,9 +112,7 @@ body {
 .product-text-container {
     display: flex;
     flex-direction: row; 
-    justify-content: center; 
-    gap: 20px; 
-    width: 200px; 
+    justify-content: center;  
     margin: 0 auto;
     padding-top: 10px; 
 }
@@ -146,20 +144,20 @@ body {
 .CTA-section {
     height: 30vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #CTA-btn {
-    background-color: #3882F6;
-    border: 3px solid whitesmoke;
+    background-color: transparent;
+    border: 2px solid white;
     font-size: 18px;
     font-weight: 600;
     font-family: Roboto;
     border-radius: 10px;
-    padding: 10px 45px;
+    padding: 8px 25px;
     color: #E5E7EB;
     cursor: pointer;
-    align-items: right;
 } 
 
 
@@ -167,10 +165,23 @@ body {
 .CTA-box {
     background-color: #3882F6;
     display: flex;
-    flex-direction: column;
-    padding: 10px 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
     border-radius: 15px;
-    margin: auto;
+    width: 60%;
+    color: white;
+}
+
+.CTA-box h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.CTA-box p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 
