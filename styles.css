@@ -96,6 +96,16 @@ body {
     border-radius: 8px;
 }
 
+.hero-placeholder img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+
+
+
 .product-section {
     background-color: white;
     display: flex;
@@ -147,8 +157,8 @@ body {
     display: flex;
     flex-direction: row; 
     justify-content: center;  
-    margin: 0 auto;
     padding-top: 10px; 
+    padding-left: 80px;
 }
 
 .product-text {
