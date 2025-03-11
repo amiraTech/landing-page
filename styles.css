@@ -10,13 +10,11 @@ body {
     font-family: Roboto;
 }
 
-
 #header-section {
     background-color: #1F2937;
     display: flex;
     height: 10vh;
 }
-
 
 #nav-bar a {
     color: #E5E7EB;
@@ -24,7 +22,6 @@ body {
     text-decoration: none; 
     margin: 5px;
 }
-
 
 .logo {
     font-size: 24px;
@@ -44,8 +41,6 @@ body {
     height: 50vh;
 }
 
-
-
 .hero-container h1 {
     color: #F9FAF8;
     font-size: 3rem;
@@ -61,7 +56,6 @@ body {
     margin: 5px;
     text-wrap: wrap;
 }
-
 
 #hero-section {
     background-color: #1F2937;
@@ -102,9 +96,6 @@ body {
     object-fit: cover; 
     border-radius: 8px; 
 }
-
-
-
 
 .product-section {
     background-color: white;
@@ -204,8 +195,6 @@ body {
     color: #E5E7EB;
     cursor: pointer;
 } 
-
-
 
 .CTA-box {
     background-color: #3882F6;
